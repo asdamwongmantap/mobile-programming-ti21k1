@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:HTMLCode="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/i1" android:title="sub-menu1" HTMLCode:showAsAction="never">
+        <menu>
+            <item android:id="@+id/s11" android:title="sub-menu-item1" HTMLCode:showAsAction="ifRoom|withText" />
+            <item android:id="@+id/s12" android:title="sub-menu-item-2" HTMLCode:showAsAction="ifRoom|withText" />
+            <item android:id="@+id/s13" android:title="sub-menu-item-3" HTMLCode:showAsAction="ifRoom|withText" />
+        </menu>
+    </item>
+    <item android:id="@+id/i2" android:title="sub-menu2" HTMLCode:showAsAction="never">
+        <menu>
+            <item android:id="@+id/s21" android:title="sub-menu-item-4" HTMLCode:showAsAction="ifRoom|withText" />
+            <item android:id="@+id/s22" android:title="sub-menu-item-5" HTMLCode:showAsAction="ifRoom|withText" />
+        </menu>
+    </item>
+</menu>
