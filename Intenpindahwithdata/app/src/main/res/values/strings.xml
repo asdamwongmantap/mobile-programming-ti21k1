@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Intenpindahwithdata</string>
+    <string name="text_button">Pindah Activity</string>
+    <string name="text_button2">Pindah Activity With Data</string>
+    <string name="text_view">Halo Activity 2</string>
+</resources>
